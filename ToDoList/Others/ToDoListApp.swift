@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct ToDoListApp: App {
+    
+    init(){
+        
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }
